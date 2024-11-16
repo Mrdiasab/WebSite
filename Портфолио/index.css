@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Calistoga:regular);
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+.header {
+    background: linear-gradient(to bottom, #dca269, #e7ceb4 80%, #e7ceb4); /* Цвета #color1 и #color2 замените на нужные */
+    height: 50px;
+    font-family: caveat;
+    padding: 30px;
+}
+.container{
+    width: 90%;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+.header-container {   
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.header-title {
+    font-weight: 800;
+    font-size: 50px;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.header-item {
+    font-weight: 400;
+    font-size: 25px;
+    gap: 50px;
+    cursor: pointer;
+}
+.main, body {
+    background-color: #e9a359; /* Установите этот цвет как нижний цвет градиента */
+    margin: 0;
+    font-family: calistoga;
+  }
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-left {   
+    color: #f7efe2;
+}
+.f-left-title {
+    word-spacing: 5px;
+    margin-bottom: 20px;
+}
+.f-left-text {
+    word-spacing: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.f-left-btn {
+    background: #f7efe2;
+    border: 3px solid #b4856e;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 15px 25px ;
+    color: #231b12;
+}
+.f-r-img {
+    width: 100%;
+    height: 500px;
+    border-radius: 250px;
+}
+.Home {
+    font-weight: 400;
+    font-size: 25px;
+    gap: 50px;
+    cursor: pointer;
+    color: #231b12;
+}
+.About {
+    font-weight: 400;
+    font-size: 25px;
+    gap: 50px;
+    cursor: pointer;
+    color: #231b12;
+}
+.Resume {
+    font-weight: 400;
+    font-size: 25px;
+    gap: 50px;
+    cursor: pointer;
+    color: #231b12;
+}
+.Blog {
+    font-weight: 400;
+    font-size: 25px;
+    gap: 50px;
+    cursor: pointer;
+    color: #231b12;
+}
+.Contact {
+    font-weight: 400;
+    font-size: 25px;
+    gap: 50px;
+    cursor: pointer;
+    color: #231b12;
+}
+
+.Pduct {
+    color: blue;
+    font-size: 50px;
+}
+  
+
+
+
+
+ 
+  
+  
